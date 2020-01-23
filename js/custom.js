@@ -72,6 +72,26 @@ $(document).ready(function () {
         draggable: false,
         prevArrow: ".owl-prev",
         nextArrow: ".owl-next",
+        responsive: [
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                }
+            }
+        ]
     });
 })
 
